@@ -16,7 +16,7 @@ class Human{
   static int counter = 0;
 
   @override String toString(){
-  return 'Human: name: ${name}, gender: ${gender}, height: ${height}, age: ${_age}\n';
+  return 'Human: name: $name, gender: $gender, height: $height, age: $_age\n';
 }
 
 void grewUp(int years){
@@ -25,7 +25,5 @@ void grewUp(int years){
 int get age => _age;
 set age(int years) => _age = years;
 }
-
-
 
 
