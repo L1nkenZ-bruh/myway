@@ -1,0 +1,2 @@
+# myway
+obsidian-vault
